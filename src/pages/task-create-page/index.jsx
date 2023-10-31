@@ -15,7 +15,6 @@ const taskCreatePageSubmitAction = async ({ request }) => {
     const id = Math.random().toString(36).substring(2, 9);
     const name = formData.get('task-name');
     const description = formData.get('task-description');
-    console.log({ id: id, name: name, description: description, completed: false });
 
     await addTask({ id: id, name: name, description: description, completed: false });
 

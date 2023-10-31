@@ -1,5 +1,5 @@
 import { TasksPageContainer } from "@/containers/tasks-page-container";
-import { addTask, getTasks } from "@/services/task";
+import { getTasks } from "@/services/task";
 
 function TasksPage() {
     return (
